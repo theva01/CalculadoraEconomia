@@ -71,15 +71,14 @@
             this.panelPrincipal.Controls.Add(this.labelTiempo);
             this.panelPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.panelPrincipal.Location = new System.Drawing.Point(0, 0);
-            this.panelPrincipal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelPrincipal.Name = "panelPrincipal";
-            this.panelPrincipal.Size = new System.Drawing.Size(1303, 709);
+            this.panelPrincipal.Size = new System.Drawing.Size(977, 576);
             this.panelPrincipal.TabIndex = 0;
             // 
             // comboBoxSelector
             // 
             this.comboBoxSelector.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.comboBoxSelector.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.comboBoxSelector.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.comboBoxSelector.FormattingEnabled = true;
             this.comboBoxSelector.Items.AddRange(new object[] {
             "Diario",
@@ -89,21 +88,19 @@
             "Trimestral",
             "Cuatrimestral",
             "Semestral"});
-            this.comboBoxSelector.Location = new System.Drawing.Point(101, 144);
-            this.comboBoxSelector.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBoxSelector.Location = new System.Drawing.Point(76, 117);
             this.comboBoxSelector.Name = "comboBoxSelector";
-            this.comboBoxSelector.Size = new System.Drawing.Size(267, 30);
+            this.comboBoxSelector.Size = new System.Drawing.Size(201, 28);
             this.comboBoxSelector.TabIndex = 41;
             this.comboBoxSelector.SelectedIndexChanged += new System.EventHandler(this.comboBoxSelector_SelectedIndexChanged);
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Rockwell", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.label1.Location = new System.Drawing.Point(415, 48);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 24F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.label1.Location = new System.Drawing.Point(311, 39);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(385, 50);
+            this.label1.Size = new System.Drawing.Size(303, 37);
             this.label1.TabIndex = 38;
             this.label1.Text = "Interes Compuesto";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -111,33 +108,30 @@
             // 
             // textBoxAños
             // 
-            this.textBoxAños.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxAños.Location = new System.Drawing.Point(193, 303);
-            this.textBoxAños.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxAños.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxAños.Location = new System.Drawing.Point(145, 246);
             this.textBoxAños.Name = "textBoxAños";
-            this.textBoxAños.Size = new System.Drawing.Size(112, 29);
+            this.textBoxAños.Size = new System.Drawing.Size(85, 26);
             this.textBoxAños.TabIndex = 37;
             this.textBoxAños.Visible = false;
             this.textBoxAños.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxAños_KeyPress);
             // 
             // textBoxMeses
             // 
-            this.textBoxMeses.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxMeses.Location = new System.Drawing.Point(193, 250);
-            this.textBoxMeses.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxMeses.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxMeses.Location = new System.Drawing.Point(145, 203);
             this.textBoxMeses.Name = "textBoxMeses";
-            this.textBoxMeses.Size = new System.Drawing.Size(112, 29);
+            this.textBoxMeses.Size = new System.Drawing.Size(85, 26);
             this.textBoxMeses.TabIndex = 36;
             this.textBoxMeses.Visible = false;
             this.textBoxMeses.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxMeses_KeyPress);
             // 
             // textBoxDias
             // 
-            this.textBoxDias.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxDias.Location = new System.Drawing.Point(193, 197);
-            this.textBoxDias.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxDias.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxDias.Location = new System.Drawing.Point(145, 160);
             this.textBoxDias.Name = "textBoxDias";
-            this.textBoxDias.Size = new System.Drawing.Size(112, 29);
+            this.textBoxDias.Size = new System.Drawing.Size(85, 26);
             this.textBoxDias.TabIndex = 35;
             this.textBoxDias.Visible = false;
             this.textBoxDias.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxDias_KeyPress);
@@ -145,11 +139,10 @@
             // labelValor
             // 
             this.labelValor.AutoSize = true;
-            this.labelValor.Font = new System.Drawing.Font("Rockwell", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.labelValor.Location = new System.Drawing.Point(189, 415);
-            this.labelValor.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelValor.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.labelValor.Location = new System.Drawing.Point(142, 337);
             this.labelValor.Name = "labelValor";
-            this.labelValor.Size = new System.Drawing.Size(62, 25);
+            this.labelValor.Size = new System.Drawing.Size(51, 20);
             this.labelValor.TabIndex = 34;
             this.labelValor.Text = "Valor";
             this.labelValor.Visible = false;
@@ -158,11 +151,10 @@
             // labelAños
             // 
             this.labelAños.AutoSize = true;
-            this.labelAños.Font = new System.Drawing.Font("Rockwell", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.labelAños.Location = new System.Drawing.Point(97, 308);
-            this.labelAños.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelAños.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.labelAños.Location = new System.Drawing.Point(73, 250);
             this.labelAños.Name = "labelAños";
-            this.labelAños.Size = new System.Drawing.Size(58, 25);
+            this.labelAños.Size = new System.Drawing.Size(50, 20);
             this.labelAños.TabIndex = 32;
             this.labelAños.Text = "Años";
             this.labelAños.Visible = false;
@@ -170,11 +162,10 @@
             // labelMeses
             // 
             this.labelMeses.AutoSize = true;
-            this.labelMeses.Font = new System.Drawing.Font("Rockwell", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.labelMeses.Location = new System.Drawing.Point(97, 251);
-            this.labelMeses.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelMeses.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.labelMeses.Location = new System.Drawing.Point(73, 204);
             this.labelMeses.Name = "labelMeses";
-            this.labelMeses.Size = new System.Drawing.Size(74, 25);
+            this.labelMeses.Size = new System.Drawing.Size(61, 20);
             this.labelMeses.TabIndex = 31;
             this.labelMeses.Text = "Meses";
             this.labelMeses.Visible = false;
@@ -182,11 +173,10 @@
             // labelDias
             // 
             this.labelDias.AutoSize = true;
-            this.labelDias.Font = new System.Drawing.Font("Rockwell", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.labelDias.Location = new System.Drawing.Point(97, 201);
-            this.labelDias.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelDias.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.labelDias.Location = new System.Drawing.Point(73, 163);
             this.labelDias.Name = "labelDias";
-            this.labelDias.Size = new System.Drawing.Size(55, 25);
+            this.labelDias.Size = new System.Drawing.Size(45, 20);
             this.labelDias.TabIndex = 30;
             this.labelDias.Text = "Dias";
             this.labelDias.Visible = false;
@@ -196,11 +186,10 @@
             this.buttonCalcular.FlatAppearance.BorderSize = 0;
             this.buttonCalcular.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(167)))), ((int)(((byte)(255)))));
             this.buttonCalcular.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonCalcular.Font = new System.Drawing.Font("Rockwell", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.buttonCalcular.Location = new System.Drawing.Point(777, 450);
-            this.buttonCalcular.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.buttonCalcular.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.buttonCalcular.Location = new System.Drawing.Point(583, 366);
             this.buttonCalcular.Name = "buttonCalcular";
-            this.buttonCalcular.Size = new System.Drawing.Size(187, 57);
+            this.buttonCalcular.Size = new System.Drawing.Size(161, 62);
             this.buttonCalcular.TabIndex = 29;
             this.buttonCalcular.Text = "Calcular";
             this.buttonCalcular.UseVisualStyleBackColor = true;
@@ -209,88 +198,80 @@
             // labelValorFinal
             // 
             this.labelValorFinal.AutoSize = true;
-            this.labelValorFinal.Font = new System.Drawing.Font("Rockwell", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.labelValorFinal.Location = new System.Drawing.Point(756, 113);
-            this.labelValorFinal.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelValorFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.labelValorFinal.Location = new System.Drawing.Point(567, 92);
             this.labelValorFinal.Name = "labelValorFinal";
-            this.labelValorFinal.Size = new System.Drawing.Size(186, 25);
+            this.labelValorFinal.Size = new System.Drawing.Size(155, 20);
             this.labelValorFinal.TabIndex = 28;
             this.labelValorFinal.Text = "Monto Compuesto";
             // 
             // textBoxValorFinal
             // 
-            this.textBoxValorFinal.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxValorFinal.Location = new System.Drawing.Point(799, 145);
-            this.textBoxValorFinal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxValorFinal.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxValorFinal.Location = new System.Drawing.Point(599, 118);
             this.textBoxValorFinal.Name = "textBoxValorFinal";
-            this.textBoxValorFinal.Size = new System.Drawing.Size(164, 29);
+            this.textBoxValorFinal.Size = new System.Drawing.Size(124, 26);
             this.textBoxValorFinal.TabIndex = 27;
             this.textBoxValorFinal.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxValorFinal_KeyPress);
             // 
             // labelValorIncial
             // 
             this.labelValorIncial.AutoSize = true;
-            this.labelValorIncial.Font = new System.Drawing.Font("Rockwell", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.labelValorIncial.Location = new System.Drawing.Point(596, 113);
-            this.labelValorIncial.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelValorIncial.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.labelValorIncial.Location = new System.Drawing.Point(447, 92);
             this.labelValorIncial.Name = "labelValorIncial";
-            this.labelValorIncial.Size = new System.Drawing.Size(150, 25);
+            this.labelValorIncial.Size = new System.Drawing.Size(117, 20);
             this.labelValorIncial.TabIndex = 26;
             this.labelValorIncial.Text = "Capital Inicial";
             // 
             // textBoxValorIncial
             // 
-            this.textBoxValorIncial.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxValorIncial.Location = new System.Drawing.Point(600, 145);
-            this.textBoxValorIncial.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxValorIncial.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxValorIncial.Location = new System.Drawing.Point(450, 118);
             this.textBoxValorIncial.Name = "textBoxValorIncial";
-            this.textBoxValorIncial.Size = new System.Drawing.Size(164, 29);
+            this.textBoxValorIncial.Size = new System.Drawing.Size(124, 26);
             this.textBoxValorIncial.TabIndex = 25;
             this.textBoxValorIncial.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxValorIncial_KeyPress);
             // 
             // labelTasaInteres
             // 
             this.labelTasaInteres.AutoSize = true;
-            this.labelTasaInteres.Font = new System.Drawing.Font("Rockwell", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.labelTasaInteres.Location = new System.Drawing.Point(400, 113);
-            this.labelTasaInteres.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelTasaInteres.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.labelTasaInteres.Location = new System.Drawing.Point(300, 92);
             this.labelTasaInteres.Name = "labelTasaInteres";
-            this.labelTasaInteres.Size = new System.Drawing.Size(158, 25);
+            this.labelTasaInteres.Size = new System.Drawing.Size(135, 20);
             this.labelTasaInteres.TabIndex = 24;
             this.labelTasaInteres.Text = "Tasa de Interes";
             this.labelTasaInteres.Click += new System.EventHandler(this.labelTasaInteres_Click);
             // 
             // textBoxTasaInteres
             // 
-            this.textBoxTasaInteres.Font = new System.Drawing.Font("Modern No. 20", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBoxTasaInteres.Location = new System.Drawing.Point(404, 145);
-            this.textBoxTasaInteres.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.textBoxTasaInteres.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBoxTasaInteres.Location = new System.Drawing.Point(303, 118);
             this.textBoxTasaInteres.Name = "textBoxTasaInteres";
-            this.textBoxTasaInteres.Size = new System.Drawing.Size(164, 29);
+            this.textBoxTasaInteres.Size = new System.Drawing.Size(124, 26);
             this.textBoxTasaInteres.TabIndex = 23;
             this.textBoxTasaInteres.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.textBoxTasaInteres_KeyPress);
             // 
             // labelTiempo
             // 
             this.labelTiempo.AutoSize = true;
-            this.labelTiempo.Font = new System.Drawing.Font("Rockwell", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
-            this.labelTiempo.Location = new System.Drawing.Point(189, 113);
-            this.labelTiempo.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.labelTiempo.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))));
+            this.labelTiempo.Location = new System.Drawing.Point(142, 92);
             this.labelTiempo.Name = "labelTiempo";
-            this.labelTiempo.Size = new System.Drawing.Size(86, 25);
+            this.labelTiempo.Size = new System.Drawing.Size(67, 20);
             this.labelTiempo.TabIndex = 22;
             this.labelTiempo.Text = "Tiempo";
             // 
             // FormCompuesto
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(1303, 709);
+            this.ClientSize = new System.Drawing.Size(977, 576);
             this.Controls.Add(this.panelPrincipal);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "FormCompuesto";
             this.Text = "FormCompuesto";
             this.panelPrincipal.ResumeLayout(false);

@@ -8,7 +8,7 @@
     <OutputType>WinExe</OutputType>
     <RootNamespace>Calculadora</RootNamespace>
     <AssemblyName>Calculadora</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -47,6 +47,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AmortizacionCapitalizacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AmortizacionCapitalizacion.Designer.cs">
+      <DependentUpon>AmortizacionCapitalizacion.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -71,6 +77,12 @@
     <Compile Include="FormCompuesto.Designer.cs">
       <DependentUpon>FormCompuesto.cs</DependentUpon>
     </Compile>
+    <Compile Include="FormGradientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormGradientes.Designer.cs">
+      <DependentUpon>FormGradientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormPrimary.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -89,9 +101,18 @@
     <Compile Include="FormTir.Designer.cs">
       <DependentUpon>FormTir.cs</DependentUpon>
     </Compile>
+    <Compile Include="GradienteAritmetico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GradienteAritmetico.Designer.cs">
+      <DependentUpon>GradienteAritmetico.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValidacionCampos.cs" />
+    <EmbeddedResource Include="AmortizacionCapitalizacion.resx">
+      <DependentUpon>AmortizacionCapitalizacion.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -104,6 +125,9 @@
     <EmbeddedResource Include="FormCompuesto.resx">
       <DependentUpon>FormCompuesto.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="FormGradientes.resx">
+      <DependentUpon>FormGradientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormPrimary.resx">
       <DependentUpon>FormPrimary.cs</DependentUpon>
     </EmbeddedResource>
@@ -112,6 +136,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FormTir.resx">
       <DependentUpon>FormTir.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GradienteAritmetico.resx">
+      <DependentUpon>GradienteAritmetico.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

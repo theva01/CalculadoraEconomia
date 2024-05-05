@@ -85,5 +85,15 @@ namespace Calculadora
         {
             abrirFormatoHija(new Form1());
         }
+
+        private void btnAmortizacion_Click(object sender, EventArgs e)
+        {
+            abrirFormatoHija(new AmortizacionCapitalizacion());
+        }
+
+        private void btnGradiente_Click(object sender, EventArgs e)
+        {
+            abrirFormatoHija(new FormGradientes());
+        }
     }
 }
