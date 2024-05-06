@@ -32,22 +32,22 @@
             this.panelContainer = new System.Windows.Forms.Panel();
             this.panelMenu = new System.Windows.Forms.Panel();
             this.panelButton = new System.Windows.Forms.Panel();
+            this.btnGradiente = new System.Windows.Forms.Button();
             this.btnAmortizacion = new System.Windows.Forms.Button();
             this.buttonAnulidad = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.buttonBonosInteres = new System.Windows.Forms.Button();
             this.btnTir = new System.Windows.Forms.Button();
             this.buttonCompuesto = new System.Windows.Forms.Button();
             this.buttonSimple = new System.Windows.Forms.Button();
             this.panelImage = new System.Windows.Forms.Panel();
-            this.btnGradiente = new System.Windows.Forms.Button();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.panelPrimary.SuspendLayout();
             this.panelMenu.SuspendLayout();
             this.panelButton.SuspendLayout();
-            this.panelImage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
+            this.panelImage.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -102,6 +102,22 @@
             this.panelButton.Size = new System.Drawing.Size(200, 507);
             this.panelButton.TabIndex = 2;
             // 
+            // btnGradiente
+            // 
+            this.btnGradiente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(199)))), ((int)(((byte)(157)))));
+            this.btnGradiente.Dock = System.Windows.Forms.DockStyle.Top;
+            this.btnGradiente.FlatAppearance.BorderSize = 0;
+            this.btnGradiente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(167)))), ((int)(((byte)(255)))));
+            this.btnGradiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btnGradiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
+            this.btnGradiente.Location = new System.Drawing.Point(0, 252);
+            this.btnGradiente.Name = "btnGradiente";
+            this.btnGradiente.Size = new System.Drawing.Size(200, 42);
+            this.btnGradiente.TabIndex = 7;
+            this.btnGradiente.Text = "Gradientes";
+            this.btnGradiente.UseVisualStyleBackColor = false;
+            this.btnGradiente.Click += new System.EventHandler(this.btnGradiente_Click);
+            // 
             // btnAmortizacion
             // 
             this.btnAmortizacion.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(199)))), ((int)(((byte)(157)))));
@@ -116,7 +132,6 @@
             this.btnAmortizacion.TabIndex = 6;
             this.btnAmortizacion.Text = "Amortizacion";
             this.btnAmortizacion.UseVisualStyleBackColor = false;
-            this.btnAmortizacion.Visible = false;
             this.btnAmortizacion.Click += new System.EventHandler(this.btnAmortizacion_Click);
             // 
             // buttonAnulidad
@@ -135,6 +150,17 @@
             this.buttonAnulidad.UseVisualStyleBackColor = false;
             this.buttonAnulidad.Click += new System.EventHandler(this.buttonAnulidad_Click);
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(156)))), ((int)(((byte)(140)))));
+            this.pictureBox3.Image = global::Calculadora.Properties.Resources.contabilidad;
+            this.pictureBox3.Location = new System.Drawing.Point(-83, 276);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(385, 228);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 4;
+            this.pictureBox3.TabStop = false;
+            // 
             // buttonBonosInteres
             // 
             this.buttonBonosInteres.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(199)))), ((int)(((byte)(157)))));
@@ -149,7 +175,6 @@
             this.buttonBonosInteres.TabIndex = 3;
             this.buttonBonosInteres.Text = "Bonos de Interes";
             this.buttonBonosInteres.UseVisualStyleBackColor = false;
-            this.buttonBonosInteres.Visible = false;
             this.buttonBonosInteres.Click += new System.EventHandler(this.buttonBonosInteres_Click);
             // 
             // btnTir
@@ -166,7 +191,6 @@
             this.btnTir.TabIndex = 2;
             this.btnTir.Text = "Tir";
             this.btnTir.UseVisualStyleBackColor = false;
-            this.btnTir.Visible = false;
             this.btnTir.Click += new System.EventHandler(this.button2_Click);
             // 
             // buttonCompuesto
@@ -214,33 +238,6 @@
             this.panelImage.Size = new System.Drawing.Size(200, 100);
             this.panelImage.TabIndex = 1;
             // 
-            // btnGradiente
-            // 
-            this.btnGradiente.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(42)))), ((int)(((byte)(199)))), ((int)(((byte)(157)))));
-            this.btnGradiente.Dock = System.Windows.Forms.DockStyle.Top;
-            this.btnGradiente.FlatAppearance.BorderSize = 0;
-            this.btnGradiente.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(167)))), ((int)(((byte)(255)))));
-            this.btnGradiente.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnGradiente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold);
-            this.btnGradiente.Location = new System.Drawing.Point(0, 252);
-            this.btnGradiente.Name = "btnGradiente";
-            this.btnGradiente.Size = new System.Drawing.Size(200, 42);
-            this.btnGradiente.TabIndex = 7;
-            this.btnGradiente.Text = "Gradientes";
-            this.btnGradiente.UseVisualStyleBackColor = false;
-            this.btnGradiente.Click += new System.EventHandler(this.btnGradiente_Click);
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(156)))), ((int)(((byte)(140)))));
-            this.pictureBox3.Image = global::Calculadora.Properties.Resources.contabilidad;
-            this.pictureBox3.Location = new System.Drawing.Point(-83, 276);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(385, 228);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 4;
-            this.pictureBox3.TabStop = false;
-            // 
             // pictureBox4
             // 
             this.pictureBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(48)))), ((int)(((byte)(156)))), ((int)(((byte)(140)))));
@@ -276,8 +273,8 @@
             this.panelPrimary.ResumeLayout(false);
             this.panelMenu.ResumeLayout(false);
             this.panelButton.ResumeLayout(false);
-            this.panelImage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
+            this.panelImage.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
